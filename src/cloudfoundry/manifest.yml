@@ -1,0 +1,6 @@
+---
+applications:
+- name: tap-demo-rest-app
+  path: target/tap-demo-rest-app-${project.version}.jar
+  env:
+    VERSION: ${version}
